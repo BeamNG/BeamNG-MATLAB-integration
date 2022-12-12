@@ -1,4 +1,8 @@
 
+close all
+clear
+clc
+
 % Start the simulator.
 beamng =  py.beamngpy.BeamNGpy('localhost', int32(64256));
 beamng.open();

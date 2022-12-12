@@ -49,10 +49,10 @@ sensors = vehicle.sensors;
 
 position_init = vehicle.state{'pos'};
 direction_init = vehicle.state{'dir'};
-electrics_sensor = sensors{'electrics'};
-wheel_speed_init = electrics_sensor.data{'wheelspeed'};
-throttle_init = electrics_sensor.data{'throttle'};
-brake_init = electrics_sensor.data{'brake'};
+electrics_sensor = sensors.data{'electrics'};
+wheel_speed_init = electrics_sensor{'wheelspeed'};
+throttle_init = electrics_sensor{'throttle'};
+brake_init = electrics_sensor{'brake'};
 
 disp(strcat("The vehicle position is: ", num2str(double(position_init))))
 disp(strcat("The vehicle direction is: ", num2str(double(direction_init))))
@@ -66,12 +66,12 @@ for ii = 1:n_sample
     pause(0.1)
     vehicle.poll_sensors()
     sensors = vehicle.sensors;
-    electrics_sensor = sensors{'electrics'};
+    electrics_sensor = sensors.data{'electrics'};
     positions(ii, :) = vehicle.state{'pos'};
     directions(ii, :) = vehicle.state{'dir'};
-    wheel_speeds(ii) = electrics_sensor.data{'wheelspeed'};
-    throttles(ii) = electrics_sensor.data{'throttle'};
-    brakes(ii) = electrics_sensor.data{'brake'};
+    wheel_speeds(ii) = electrics_sensor{'wheelspeed'};
+    throttles(ii) = electrics_sensor{'throttle'};
+    brakes(ii) = electrics_sensor{'brake'};
 end
 
 beamng.close()
