@@ -5,28 +5,28 @@ The [BeamNG-MATLAB bridge](https://github.com/BeamNG/BeamNG-MATLAB-integration) 
 
 
 ### Vehicle State Plotting
-    use the state sensor to plot some graphs of the vehicle position, wheel speed and direction, throttle, and brake. 
+#### Use the state sensor to plot some graphs of the vehicle position, wheel speed and direction, throttle, and brake. 
 ![Vehicle state ploting](https://github.com/BeamNG/BeamNG-MATLAB-integration/blob/main/media/annotation_bounding_boxes.png)
 
 
 ### Running Lidar sensor, and AI control. 
-    create a simple scenario
-    use the simulator's AI with BeamNGpy
+#### Create a simple scenario
+#### Use the simulator's AI with BeamNGpy
 ![Lidar sensor and AI control mode](https://github.com/BeamNG/BeamNG-MATLAB-integration/blob/main/media/lidar_tour.png)
 
 ### Multi-shot Camera    
-    change the position and rotation of a camera
+#### Change the position and rotation of a camera
 ![Multi-shot Camera](https://github.com/BeamNG/BeamNG-MATLAB-integration/blob/main/media/multi_shots_1.png)
 
 ### Object Placement    
-    define a custom scenario for a given map
-    generate procedural content, i.e. simple meshes
+#### Define a custom scenario for a given map
+#### Generate procedural content, i.e. simple meshes
 ![Object Placement](https://github.com/BeamNG/BeamNG-MATLAB-integration/blob/main/media/object_placment_0.png)
 
 
 
 ### Annotation and Bounding Boxes
-    get semantic annotations
-    get instance annotations
-    draw bounding boxes (note that this feature is not ready for use yet)
+#### Get semantic annotations
+#### Get instance annotations
+#### Graw bounding boxes (note that this feature is not ready for use yet)
 ![Annotation and Bounding Boxes](https://github.com/BeamNG/BeamNG-MATLAB-integration/blob/main/media/annotation_bounding_boxes.png)
