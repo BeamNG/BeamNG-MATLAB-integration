@@ -15,9 +15,9 @@ The [BeamNG-MATLAB bridge](https://github.com/BeamNG/BeamNG-MATLAB-integration) 
 
 Running the BeamNG ROS integration requires three individual software components, here is a list of compatible versions.
 
-| BeamNG.tech | BeamNGpy | MATLAB | Python         |
-|-------------|----------|--------|----------------|
-| 0.27        | 1.25     | R2022b | 3.9            | 
+| BeamNG.tech | BeamNGpy | BeamNG-MATLAB-integration | MATLAB | Python  |
+|-------------|----------|---------------------------|--------|---------|
+| 0.27        | 1.25     | 0.1.0                     | R2022b | 3.9     | 
 
  #### 1. Setup a compatible python version   
 After installing the [compatible python version](https://www.mathworks.com/support/requirements/python-compatibility.html) with MATLAB, make sure to include the path of excutable python file (exe) in your in "path" variable of "environment variables" as explained [here](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0).  
