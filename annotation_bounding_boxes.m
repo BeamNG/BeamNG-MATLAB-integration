@@ -112,7 +112,7 @@ bounding_boxes = cam1.extract_bounding_boxes(images{'annotation'}, images{'insta
 for i = bounding_boxes.length - 1 : -1 : 1
     n = bounding_boxes(i);
     disp(n{1}{'class'})
-    if n{1}{'class'} ~= 'CAR'
+    if n{1}{'class'} ~= "CAR"
         bounding_boxes.remove(n{1});
     end
 end
