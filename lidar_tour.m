@@ -1,3 +1,7 @@
+close all
+clear
+clc
+
 %link bng object to BeamNG folder 
 bng =  py.beamngpy.BeamNGpy('localhost', int32(64256));
 %bng =  py.beamngpy.BeamNGpy('localhost', int8(64256), home='C:\\game');
