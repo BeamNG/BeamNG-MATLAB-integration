@@ -47,7 +47,7 @@ Running the BeamNG ROS integration requires three individual software components
 
 | BeamNG.tech | BeamNGpy | BeamNG-MATLAB-integration | MATLAB | Python  |
 |-------------|----------|---------------------------|--------|---------|
-| [0.27](https://beamng.tech/blog/beamng-tech-027/)        | [1.25](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.25)     | [0.1.0](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.0)                     | [R2022b](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
+| [0.27](https://beamng.tech/blog/beamng-tech-027/)        | [1.25.1](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.25.1)     | [0.1.0](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.0)                     | [R2022b](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
 | [0.28](https://beamng.tech/blog/beamng-tech-028/)        | [1.26](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.26)     | [0.1.1](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.1)                     | [R2023a](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
 
 
