@@ -19,7 +19,7 @@ We are excited to announce that the highly requested feature of bridging BeamNG.
 <a name="docs"></a>
 
 ## Documentation
-[![](https://raw.githubusercontent.com/ChristianBirchler/sdc-scissor/main/docs/images/readthedocs.png)](https://beamngpy.readthedocs.io/en/latest/MATLAB.html)
+[![](https://raw.githubusercontent.com/BeamNG/BeamNG-MATLAB-integration/main/media/readthedocs.png)](https://beamngpy.readthedocs.io/en/latest/MATLAB.html)
 
 <a name="features"></a>
 
@@ -47,8 +47,9 @@ Running the BeamNG ROS integration requires three individual software components
 
 | BeamNG.tech | BeamNGpy | BeamNG-MATLAB-integration | MATLAB | Python  |
 |-------------|----------|---------------------------|--------|---------|
+| [0.28](https://beamng.tech/blog/beamng-tech-028/)        | [1.26](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.26)     | [0.1.1](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.1)                     | [R2023a](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)  | 
 | [0.27](https://beamng.tech/blog/beamng-tech-027/)        | [1.25.1](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.25.1)     | [0.1.0](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.0)                     | [R2022b](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
-| [0.28](https://beamng.tech/blog/beamng-tech-028/)        | [1.26](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.26)     | [0.1.1](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.1)                     | [R2023a](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
+
 
 
 <a name="setup"></a>
