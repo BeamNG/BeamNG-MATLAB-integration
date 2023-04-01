@@ -11,9 +11,9 @@ We are excited to announce that the highly requested feature of bridging BeamNG.
  - [Documentation](#docs)
  - [Features](#features) 
  - [Prerequirements](#prereqs)
- - [Compatibility](#compatibility)
  - [Setup](#setup)
  - [Getting Started](#getstart)
+ - [Compatibility](#compatibility)
  - [License](#license)
  
 <a name="docs"></a>
@@ -36,19 +36,6 @@ you must have the following softwares/packages installed
 * [Compatible Python](https://www.mathworks.com/support/requirements/python-compatibility.html) 
 * [BeamNGpy](https://pypi.org/project/beamngpy/)
 * [BeamNG.Tech](https://documentation.beamng.com/beamng_tech/)
-
-
-
-<a name="compatibility"></a>
-
-## Compatibility  
-
-Running the BeamNG ROS integration requires three individual software components, here is a list of compatible versions.
-
-| BeamNG.tech | BeamNGpy | BeamNG-MATLAB-integration | MATLAB | Python  |
-|-------------|----------|---------------------------|--------|---------|
-| [0.28](https://beamng.tech/blog/beamng-tech-028/)        | [1.26](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.26)     | [0.1.1](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.1)                     | [R2023a](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)  | 
-| [0.27](https://beamng.tech/blog/beamng-tech-027/)        | [1.25.1](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.25.1)     | [0.1.0](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.0)                     | [R2022b](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
 
 
 
@@ -102,6 +89,20 @@ Define a custom scenario for a given map and generate procedural content, i.e. s
 Get semantic annotations, instance annotations, and draw bounding boxes (note that this feature is not ready for use yet).
 
 <img src="https://raw.githubusercontent.com/BeamNG/BeamNG-MATLAB-integration/main/media/annotation_bounding_boxes.png" alt="Annotation and Bounding Boxes" width="1161" height="628">
+
+
+
+<a name="compatibility"></a>
+
+## Compatibility  
+
+Running the BeamNG ROS integration requires three individual software components, here is a list of compatible versions.
+
+| BeamNG.tech | BeamNGpy | BeamNG-MATLAB-integration | MATLAB | Python  |
+|-------------|----------|---------------------------|--------|---------|
+| [0.28](https://beamng.tech/blog/beamng-tech-028/)        | [1.26](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.26)     | [0.1.1](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.1)                     | [R2023a](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)  | 
+| [0.27](https://beamng.tech/blog/beamng-tech-027/)        | [1.25.1](https://github.com/BeamNG/BeamNGpy/releases/tag/v1.25.1)     | [0.1.0](https://github.com/BeamNG/BeamNG-MATLAB-integration/releases/tag/v0.1.0)                     | [R2022b](https://www.mathworks.com/products/new_products/latest_features.html) | [3.9](https://www.python.org/downloads/release/python-390/)     | 
+
 
 
 <a name="license"></a>
