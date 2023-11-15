@@ -46,7 +46,7 @@ you must have the following softwares/packages installed
 ### 1. Setup a compatible python version   
 After installing the [compatible python version](https://www.mathworks.com/support/requirements/python-compatibility.html) with MATLAB, make sure to include the path of excutable python file (exe) in your in "path" variable of "environment variables" as explained [here](https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0).  
 
-### 2. Run pyhton engine in MATLAB 
+### 2. Run Python engine in MATLAB 
 Run the [test_python.m](https://github.com/BeamNG/BeamNG-MATLAB-integration/blob/main/test_python.m) to make sure that python engine is connected to your MATLAB engine as shown in the picture below. 
 
 
