@@ -9,7 +9,7 @@ We are excited to announce that the highly requested feature of bridging BeamNG.
 ## Table of Contents
 
  - [Documentation](#docs)
- - [Features](#features) 
+<!-- - [Features](#features) --> 
  - [Prerequirements](#prereqs)
  - [Setup](#setup)
  - [Getting Started](#getstart)
@@ -20,14 +20,14 @@ We are excited to announce that the highly requested feature of bridging BeamNG.
 
 ## Documentation
 [![](https://raw.githubusercontent.com/BeamNG/BeamNG-MATLAB-integration/main/media/readthedocs.png)](https://beamngpy.readthedocs.io/en/latest/MATLAB.html)
-
+<!--
 <a name="features"></a>
 
 ## Features
 
 
 As of now the BeamNG ROS integration supports one package for the **remote** control of the simulation platform and one package for the control of a driving agent. A third package manages custom messages.
-
+-->
 <a name="prereqs"></a>
 ## Prerequirements
 The [BeamNG-MATLAB bridge](https://github.com/BeamNG/BeamNG-MATLAB-integration) is depending on [BeamNG.Tech](https://documentation.beamng.com/beamng_tech/) and [BeamNGpy](https://documentation.beamng.com/beamng_tech/beamngpy/). Make sure that you have the license for BeamNG.Tech. The Github repository of the BeamNG-MATLAB has some basic examples of scripts that run a vehicle with some sensors ex. Lidar, Camera, and state sensor. 
