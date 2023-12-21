@@ -1,3 +1,7 @@
+# This project is merged with [BeamNG-Simulink_generic_interface](https://github.com/BeamNG/BeamNG-Simulink_generic_interface) into [BeamNG-MATLAB-Simulink-integration](https://github.com/BeamNG/BeamNG-MATLAB-Simulink-integration)
+
+
+
 # MATLAB Integration with BeamNG.tech
 
 <a name="About"></a>
